@@ -25,7 +25,7 @@ export default function Work() {
               description={project?.description}
               image={project?.image}
               liveLink={project?.liveLink}
-              githubLink={project?.githubLink}
+              // githubLink={project?.githubLink}
               stacks={project?.stacks}
               type={project?.type}
             />

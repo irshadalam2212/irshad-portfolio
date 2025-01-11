@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex flex-col gap-2">
           <span className=" font-medium text-lg">Hi, I'm</span>
           <h1 className=" font-bold  text-6xl md:text-7xl font-grotesk">
-            Farouk Mustapha
+            Irshad Alam
           </h1>
         </div>
         <div className="relative">
@@ -21,18 +21,17 @@ const Header = () => {
             variant={"secondary"}
             className=" font-grotesk text-bases sm:text-xl"
           >
-            A Front-end Engineer
+            A Fullstack Engineer
           </Badge>
           <p className="mt-2 ">
-            I specialize in building WebApps using React, Next.js, and
-            TypeScript, turning designs into engaging web experiences.
+            I specialize in building web applications using React, Node.js, MongoDB, Express, JavaScript, and TypeScript, transforming designs into engaging and interactive web experiences.
           </p>
         </div>
         <Button asChild variant={"outline"}>
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href={"mailto:your.mustaphafarouk41@gmail.com"}
+            href={"mailto:irshadalam1414@gmail.com"}
             className="flex items-center border-black justify-center gap-3 px-5 py-2  font-bold w-max  border-[1px]  mt-5 "
           >
             Get in Touch
@@ -53,7 +52,7 @@ const Header = () => {
         <div className="relative h-[18rem] w-[18rem] lg:h-[17rem] lg:w-[17rem]">
           <Image
             alt="profile image"
-            src={"/profile.webp"}
+            src={"/profile.jpg"}
             style={{
               borderRadius: "50%",
               height: "100%",

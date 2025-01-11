@@ -22,15 +22,14 @@ const Navbar = () => {
     >
       <Link
         href="/"
-        className="flex justify-start sm:justify-center items-center  uppercase tracking-wider"
+        className="flex justify-start sm:justify-center items-center"
       >
-        <h1 className="text-3xl sm:text-3xl font-bold lg:text-4xl text-secondary-color-3 font-idgrotesk">
+        {/* <h1 className="text-3xl sm:text-3xl font-bold lg:text-4xl text-secondary-color-3 font-idgrotesk">
           Dev
-        </h1>
+        </h1> */}
         <p className="text-xl sm:text-2xl lg:text-2xl font-extrabold font-grotesk">
-          Far
-          <ThemeSwitcher />
-          uk
+          Irshad.dev
+          {/* <ThemeSwitcher /> */}
         </p>
       </Link>
       <div className="hidden md:flex items-center gap-2  font-grotesk uppercase">
@@ -51,7 +50,7 @@ const Navbar = () => {
             <li className="hidden lg:inline-block">
               <Button asChild variant={"outline"}>
                 <Link
-                  href="https://docs.google.com/document/d/1bp5RxbPMA8RHlcUGZIOXIKQ8I1wzLx3MvOQLXVlf8SQ/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/18hzHSW4znieESH-0DB2czZuGJXSjfDPgw6eNUjIABLY/edit?usp=sharing"
                   className=" border-[1px] border-black"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -66,9 +65,8 @@ const Navbar = () => {
       </div>
       <div className="lg:hidden z-50">
         <button
-          className={`hamburger ${
-            isOpen ? "open" : ""
-          } relative z-30 w-8 h-6 flex flex-col justify-between items-center`}
+          className={`hamburger ${isOpen ? "open" : ""
+            } relative z-30 w-8 h-6 flex flex-col justify-between items-center`}
           onClick={toggleMenu}
         >
           <span className="line block w-full h-1 dark:bg-secondary-color-3 bg-black transition-transform duration-300 ease-in-out origin-center"></span>
@@ -103,7 +101,7 @@ const Navbar = () => {
             ))}
             <Button asChild variant={"outline"}>
               <Link
-                href="https://docs.google.com/document/d/1bp5RxbPMA8RHlcUGZIOXIKQ8I1wzLx3MvOQLXVlf8SQ/edit?usp=sharing"
+                href="https://docs.google.com/document/d/18hzHSW4znieESH-0DB2czZuGJXSjfDPgw6eNUjIABLY/edit?usp=sharing"
                 className=""
                 target="_blank"
                 rel="noopener noreferrer"

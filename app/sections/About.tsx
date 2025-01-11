@@ -36,19 +36,10 @@ const About = () => {
         </div>
         <div className="w-full lg:w-[50%] order-1 lg:order-2">
           <article>
-            Farouk Mustapha is a Frontend Developer based in Lagos, Nigeria,
-            with 2 years of experience in the field. I have developed web
-            applications using JavaScript and TypeScript.I love turning designs
-            and ideas into cool web experiences, and work closely with Product
-            designers and backend developers to bring these ideas to life.I have
-            contributed to numerous projects, collaborating with product
-            designers, backend developers, DevOps, and other tech professionals.{" "}
+            Irshad Alam is a Full Stack Developer based in Thane, Maharashtra, with 1 year of experience in crafting scalable and efficient web applications. I have developed numerous projects using JavaScript, TypeScript, Node.js, Express, MongoDB, and React, leveraging my expertise in both front-end and back-end development. I thrive on transforming designs and ideas into seamless web experiences, collaborating closely with Product designers, DevOps, and other tech professionals to bring these visions to life.{" "}
             <br />
             <br />
-            Over this period, I have worked and interned at startups and
-            companies such as Pathpalz, Berrystamp, and JustDoStartUp. I have a
-            strong passion for learning and teaching, and am always updated with
-            the latest advancements in technology.
+            My experience spans contributing to various projects, working with cross-functional teams, and interning at startups and companies such as Speedup Infotech and Millicent Technology. With a strong passion for learning, I stay updated with the latest advancements in technology, ensuring my skills remain cutting-edge.
           </article>
         </div>
       </div>

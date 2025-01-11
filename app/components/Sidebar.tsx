@@ -1,5 +1,6 @@
 import { socialLinks } from "@/datas/data";
 import Link from "next/link";
+import { ThemeSwitcher } from "./ThemeSwitch";
 
 const Sidebar = () => {
   return (
@@ -28,6 +29,7 @@ const Sidebar = () => {
             </Link>
           </li>
         ))}
+        <ThemeSwitcher />
       </ul>
     </section>
   );

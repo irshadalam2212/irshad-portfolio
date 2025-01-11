@@ -6,15 +6,15 @@ const Copyright = () => {
       <p className=" text-center">
         Designed by
         <Link
-          href={"https://github.com/Farouk-ayo/devfarouk"}
-          className=" text-secondary-color-3   font-bold font-idgrotesk"
+          href={"https://github.com/irshadalam2212"}
+          className=" text-secondary-color-3 font-bold font-idgrotesk"
           target="_blank"
           rel="noopener noreferrer"
         >
           {" "}
-          devfarouk 👨‍💻
+          Irshad Alam 👨‍💻
         </Link>{" "}
-        (Inspirations from{" "}
+        {/* (Inspirations from{" "}
         <Link
           href={"https://www.geekmaros.dev/"}
           className=" font-bold"
@@ -23,10 +23,10 @@ const Copyright = () => {
         >
           Geekmaros
         </Link>{" "}
-        )
+        ) */}
       </p>
       <div></div>
-      <p className=" ">&copy; 2024 All rights reserved.</p>
+      <p className=" ">&copy; 2025 All rights reserved.</p>
     </div>
   );
 };

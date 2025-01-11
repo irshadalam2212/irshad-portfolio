@@ -1,59 +1,58 @@
 export const socialLinks = [
   {
     name: "Github",
-    link: "https://github.com/Farouk-ayo",
+    link: "https://github.com/irshadalam2212",
     simpleIcon: "https://cdn.simpleicons.org/github",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/Faroukayo",
+    link: "https://www.linkedin.com/in/irshadalam22/",
     simpleIcon: "https://cdn.simpleicons.org/linkedin",
   },
   {
     name: "X",
-    link: "https://x.com/Faroukayo24",
+    link: "https://x.com/",
     simpleIcon: "https://cdn.simpleicons.org/x",
   },
-
   {
     name: "Instagram",
-    link: "https://www.instagram.com/dev_farouk/",
+    link: "https://www.instagram.com/irshadalam2212",
     simpleIcon: "https://cdn.simpleicons.org/instagram",
   },
 ];
 
 export const technologies = [
   {
-    name: "NextJs",
-    iconLink: "https://cdn.simpleicons.org/nextdotjs",
+    name: "ReactJs",
+    iconLink: "https://cdn.simpleicons.org/react",
   },
   {
-    name: "React",
-    iconLink: "https://cdn.simpleicons.org/react",
+    name: "NextJs",
+    iconLink: "https://cdn.simpleicons.org/nextdotjs",
   },
   {
     name: "TailwindCss",
     iconLink: "https://cdn.simpleicons.org/tailwindcss",
   },
   {
-    name: "Framer Motion",
-    iconLink: "https://cdn.simpleicons.org/framer",
+    name: "NodeJs",
+    iconLink: "https://cdn.simpleicons.org/nodedotjs",
   },
   {
-    name: "Sass",
-    iconLink: "https://cdn.simpleicons.org/sass",
+    name: "MonogoDB",
+    iconLink: "https://cdn.simpleicons.org/mongodb",
   },
   {
     name: "Git",
     iconLink: "https://cdn.simpleicons.org/git",
   },
   {
-    name: "Chakra UI",
-    iconLink: "https://cdn.simpleicons.org/chakraui",
+    name: "Express",
+    iconLink: "https://cdn.simpleicons.org/express",
   },
   {
-    name: "Shadcn/ui",
-    iconLink: "https://cdn.simpleicons.org/shadcnui",
+    name: "Typescript",
+    iconLink: "https://cdn.simpleicons.org/typescript",
   },
 ];
 
@@ -64,174 +63,144 @@ export const sections = [
   { idRoute: "#contact", name: "Contact" },
 ];
 
-export const companies = [
-  "Pathpalz",
-  "Berrystamp",
-  "Busineess Prompt",
-  "Deep Focus",
-  "JustDo Startup",
-];
+export const companies = ["Millicent Technology", "Speedup Infotech"];
 
 export const companiesInfo = [
   {
-    title: "Lead Frontend Engineer",
-    company: "Pathpalz",
-    location: "Uk(remote)",
-    duration: "February 2023 - September 2024",
+    title: "Fullstack Developer (MERN)",
+    company: "Millicent Technology",
+    location: "Mumbai, Maharashtra",
+    duration: "July 2024 - Present",
     roles: [
-      "Implemented real-time tracking features for users to locate nearby commuters and accurately estimate arrival times, leveraging React tools and Tailwind CSS for enhanced styling",
-      "Developed a ridesharing progressive web application using TypeScript and React, with seamless backend integration of geocoordinate data",
-      "Designed a user-friendly and accessible frontend, prioritizing smooth navigation and efficient API consumption",
+      "Developed reusable components to enhance the efficiency and maintainability of the front-end codebase.",
+      "Designed and implemented the user interface for a real estate website, improving user experience and increasing engagement.",
+      "Integrated APIs with front-end applications, enabling dynamic data fetching and improving functionality.",
+      "Created a comprehensive admin panel, allowing for easy management and oversight of website content and user activity.",
+      "Built the front-end architecture for a stock market website, ensuring a responsive and visually appealing experience.",
     ],
   },
   {
-    title: "Frontend Engineer",
-    company: "Berrystamp",
-    location: "Lagos, Nigeria",
-    duration: "October 2023 - February 2024",
+    title: "Fullstack Developer Trainee",
+    company: "Speedup Infotech",
+    location: "Pune, Maharashtra",
+    duration: "January 2024 - June 2024",
     roles: [
-      "Contributed significantly to the progress of the startup tech company aiming to decentralize the print-on-demand space(Berrystamp)",
-      "Specialized in API integration for the admin dashboard, collaborating with Backend developers, DevOps, and UI/UX designers",
-      "Proficiently utilized TypeScript and React to enhance the functionality and user experience of the project",
-    ],
-  },
-  {
-    title: "Frontend Engineer",
-    company: "Business Prompt Pro",
-    location: "Remote",
-    duration: " November 2023 - December 2023",
-    roles: [
-      "Utilized and collaborated closely with a partner proficient in SOFTR.IO and Airtable to create a user-friendly front-end interface for data entry and retrieval and also enabling external users to seamlessly search the Airtable database",
-      "Engineered an intuitive data entry interface within Airtable for fetching the options for each data field and posting data upon form submission",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "DeepFocus",
-    location: "Remote",
-    duration: "September 2023",
-    roles: [
-      "Enhanced DeepFocus Wix Website by integrating design elements with code, focusing on the “our team” section and implementing a captivating logo animation with the use of JavaScript",
-      "Contributed to the visual appeal and functionality, collaborating closely with the team to elevate the brand’s online presence",
-      ,
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "JustDo-Startup (JDS)",
-    location: "Lagos Nigeria",
-    duration: "February 2023 – July 2023",
-    roles: [
-      "Contributed to a community of developers and product designers, in developing a webApp(E-vent). The (E-vent) webApp is designed and developed with React, JavaScript, Vite, and cutting edge React 18 features to provide a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
-      ,
+      "Completed comprehensive training on MERN stack technologies, including MongoDB, Express.js, React.js, and Node.js.",
+      "Implemented small-scale applications to explore various functionalities and features of the MERN stack.",
+      "Completed a certification in MERN stack development to validate skills and knowledge acquired.",
+      "Learned best practices for full-stack development, focusing on code quality and version control.",
+      "Completed a certification in MERN stack development to validate skills and knowledge acquired.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "BerryStamp",
+    name: "Cooling World",
     type: "Featured Project",
     description:
-      "Berrystamp is revolutionizing the print-on-demand industry with its innovative approach to customization and printing services.",
-    image: "/berrystamp.webp",
-    liveLink: "https://berrystamp.com/",
-    stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
+      "For Cooling World, I am designing an intuitive user interface that enables customers to effortlessly visit the website, explore services, and book appointments online.",
+    image: "/cooling-world.png",
+    liveLink: "https://coolingworld-dev.netlify.app/",
+    stacks: ["JavaScript", "React", "TailwindCss", "NodeJs", "MongoDB"],
   },
   {
-    name: "BFN",
-    type: "Featured Project",
-    description:
-      "Developed a microsite for the BFN initiative, collaborating closely with content writers to create a visually appealing and intuitive platform. The site is designed with a focus on user experience, utilizing a clean and modern layout.",
-    image: "/bfn.webp",
-    liveLink: "https://www.programs-bfn.ca/",
-    stacks: ["TypeScript", "React", "TailwindCss", "AOS"],
-  },
-  {
-    name: "GSwift",
-    type: "Featured Project",
-    description:
-      "A Gwift web app is a progressive ridesharing application with real-time tracking, seamless geocoordinate integration, and a user-friendly interface, prioritizing smooth navigation and efficient API consumption.",
-    image: "/gswift.webp",
-    liveLink: "https://gswift.pathpalz.com/",
-    stacks: ["TypeScript", "React", "TailwindCss"],
-  },
-
-  {
-    name: "DeepFocustt",
-    type: "Featured Project",
-    description:
-      "For the DeepFocustt project, I developed and integrated animations by incorporating full HTML code, including CSS, JavaScript, and additional packages, to create a dynamic and engaging user experience on their Wix platform",
-    image: "/deepfocus.webp",
-    liveLink: "https://www.deepfocustt.com/",
-    stacks: ["Wix", "Css", "Html", "Gsap"],
-  },
-  {
-    name: "Huntstore",
+    name: "Shopper",
     type: "Personal Project",
     description:
-      "Huntstore is an ecommerce store that shows a variety of gender products.",
-    image: "/huntstore.webp",
-    liveLink: "https://huntstore.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/huntstore",
-    stacks: ["JavaScript", "React", "css"],
+      "Developed a website for the Shopper (E-commerce). The site is designed with a focus on user experience, utilizing a clean and modern layout.",
+    image: "/shopper.png",
+    liveLink: "https://shopper-dev.netlify.app/",
+    stacks: ["JavaScript", "React", "Css", "Context API"],
   },
   {
-    name: "Duplicate character remover",
+    name: "CodeVerse",
     type: "Personal Project",
     description:
-      "A houseware frontend engineering octernship task to develop a webapp for deletion of duplicate characters on clicking on the selected duplicated character or text",
-    image: "/duplicateremover.webp",
-    liveLink:
-      "https://houseware-frontend-engineering-octernship-frk-ayo.vercel.app/",
-    stacks: ["JavaScript", "React", "css"],
+      "For CodeVerse, I am developing a seamless and interactive learning experience, designing and implementing intuitive user interfaces to enhance the online coding course platform.",
+    image: "/coding.png",
+    liveLink: "https://codeverse-dev.netlify.app/",
+    stacks: [
+      "JavaScript",
+      "React",
+      "TailwindCss",
+      "NodeJs",
+      "MongoDB",
+      "ExpressJs",
+    ],
   },
   {
-    name: "E-vent",
+    name: "BeautiqueBliss",
     type: "Featured Project",
     description:
-      "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
-    image: "/e-vent.webp",
-    stacks: ["JavaScript", "React", "Tailwind", "Mui"],
+      "I am developing an admin panel with role-based features for the BeautiqueBliss website, enabling both administrators and employees to utilize the platform with distinct access levels and privileges.",
+    image: "/beautique.png",
+    liveLink: "https://beautiquebliss.netlify.app/",
+    stacks: [
+      "Typescript",
+      "React",
+      "NodeJs",
+      "MongoDB",
+      "Express",
+      "TailwindCss",
+    ],
   },
-  {
-    name: "MovieBox",
-    type: "Personal Project",
-    description:
-      "A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies, consuming data from the TMDB API.",
-    image: "/moviebox.webp",
-    liveLink: "https://movie-box-tmdb.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/movie--boxTMDB/tree/master",
-    stacks: ["JavaScript", "React", "css"],
-  },
-  {
-    name: "Penslab",
-    type: "Featured Project",
-    description:
-      "An Electrical Electronics Engineering Departmental Project in connection to an Arduino Sensor",
-    image: "/penslab.webp",
-    liveLink: "https://penslab.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/penslab",
-    stacks: ["JavaScript", "React", "Tailwind"],
-  },
-  {
-    name: "Yalbaze",
-    type: "Personal Project",
-    description: "A designed webapp landing page",
-    image: "/yalbaze.webp",
-    githubLink: "https://github.com/Farouk-ayo/yalbaze",
-    liveLink: "https://yalbaze.vercel.app/",
-    stacks: ["css", "React"],
-  },
-  {
-    name: "Frk-ayo",
-    type: "Personal Project",
-    description:
-      "The aim of the project was to attract the users with the UI, which i built with HTML/CSS and JavaScript.",
-    image: "/frk_ayo.webp",
-    githubLink: "https://github.com/Farouk-ayo/Frkayo-Financesite",
-    liveLink: "https://frkayo-financesite.vercel.app",
-    stacks: ["Sass/scss", "Html", "JavaScript"],
-  },
+  // {
+  //   name: "Duplicate character remover",
+  //   type: "Personal Project",
+  //   description:
+  //     "A houseware frontend engineering octernship task to develop a webapp for deletion of duplicate characters on clicking on the selected duplicated character or text",
+  //   image: "/duplicateremover.webp",
+  //   liveLink:
+  //     "https://houseware-frontend-engineering-octernship-frk-ayo.vercel.app/",
+  //   stacks: ["JavaScript", "React", "css"],
+  // },
+  // {
+  //   name: "E-vent",
+  //   type: "Featured Project",
+  //   description:
+  //     "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
+  //   image: "/e-vent.webp",
+  //   stacks: ["JavaScript", "React", "Tailwind", "Mui"],
+  // },
+  // {
+  //   name: "MovieBox",
+  //   type: "Personal Project",
+  //   description:
+  //     "A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies, consuming data from the TMDB API.",
+  //   image: "/moviebox.webp",
+  //   liveLink: "https://movie-box-tmdb.vercel.app/",
+  //   githubLink: "https://github.com/Farouk-ayo/movie--boxTMDB/tree/master",
+  //   stacks: ["JavaScript", "React", "css"],
+  // },
+  // {
+  //   name: "Penslab",
+  //   type: "Featured Project",
+  //   description:
+  //     "An Electrical Electronics Engineering Departmental Project in connection to an Arduino Sensor",
+  //   image: "/penslab.webp",
+  //   liveLink: "https://penslab.vercel.app/",
+  //   githubLink: "https://github.com/Farouk-ayo/penslab",
+  //   stacks: ["JavaScript", "React", "Tailwind"],
+  // },
+  // {
+  //   name: "Yalbaze",
+  //   type: "Personal Project",
+  //   description: "A designed webapp landing page",
+  //   image: "/yalbaze.webp",
+  //   githubLink: "https://github.com/Farouk-ayo/yalbaze",
+  //   liveLink: "https://yalbaze.vercel.app/",
+  //   stacks: ["css", "React"],
+  // },
+  // {
+  //   name: "Frk-ayo",
+  //   type: "Personal Project",
+  //   description:
+  //     "The aim of the project was to attract the users with the UI, which i built with HTML/CSS and JavaScript.",
+  //   image: "/frk_ayo.webp",
+  //   githubLink: "https://github.com/Farouk-ayo/Frkayo-Financesite",
+  //   liveLink: "https://frkayo-financesite.vercel.app",
+  //   stacks: ["Sass/scss", "Html", "JavaScript"],
+  // },
   ,
 ];
